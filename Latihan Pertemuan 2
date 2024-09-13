@@ -1,0 +1,91 @@
+a = [1,2,3]
+b = [4,5,6 ]
+
+hasil = a + b
+print(hasil)
+     
+[1, 2, 3, 4, 5, 6]
+
+def totallist(a, b):
+  total = 0
+  for i in a:
+    total += i
+  for i in b:
+    total += i
+  return total
+
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+result = totallist(a, b)
+print(result)
+
+     
+21
+
+print("Hello world")
+print("nama saya Satrio
+print("nim saya 2023071050")
+     
+Hello world
+nama saya Satrio 
+nim saya 2023071050
+
+Nama = input("Masukkan Nama ")
+Nim = input("Masukkan Nim ")
+print("Nama saya",Nama)
+print("Nim saya",Nim)
+
+     
+Masukkan Nama asdas
+Masukkan Nim 123
+Nama saya asdas
+Nim saya 123
+
+if 5>2:
+  print ("katakata")
+     
+katakata
+
+mylist = [1, 2, 3, 4, 5]
+
+getfirst = mylist[0]
+getsecond = mylist[1]
+
+print("First element:", getfirst)
+print("Second element:", getsecond)
+
+     
+First element: 1
+Second element: 2
+
+
+     
+
+def getlast(list):
+    size = len(list)
+    print(size)
+    return list[size-1]
+     
+
+# prompt: getsum getkali list=1,3,5,7
+
+def getsum(list):
+  total = 0
+  for i in list:
+    total += i
+  return total
+
+def getkali(list):
+  total = 1
+  for i in list:
+    total *= i
+  return total
+
+list = [1, 3, 5, 7]
+print(getsum(list))
+print(getkali(list))
+
+     
+16
+105
